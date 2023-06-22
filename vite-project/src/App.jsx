@@ -6,11 +6,10 @@ export function App() {
 
   return (
     <>
-     <Post/>
-     <Post/>
-     <Post/>
-     <Post/>
-     <Post/>
+     <Post author="Bikel"
+           content="paoapoamsaoede"
+     />
+   
     </>
   )
 }
