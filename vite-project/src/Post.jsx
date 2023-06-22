@@ -1,9 +1,10 @@
 export function Post(props) {
   return (
     <>
-      <h1>{props.author}</h1>
+    {/* sempre que se usar uma variavel js em tags html é preciso usar chaves {} */}
+      <strong>{props.author}</strong>
       <p>{props.content}</p>
-      {/* sempre que eu usar um codigo js em tags html é preciso usar chaves {} */}
+      
     </>
   );
 }

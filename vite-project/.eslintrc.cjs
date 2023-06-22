@@ -11,5 +11,7 @@ module.exports = {
   plugins: ['react-refresh'],
   rules: {
     'react-refresh/only-export-components': 'warn',
+    // para corrigir o erro de porototype do eslint 
+    'react/prop-types': 0
   },
 }
